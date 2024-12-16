@@ -1,0 +1,66 @@
+body {
+	background-image:url(https://images8.alphacoders.com/674/thumb-1920-674629.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: ghostwhite;
+	font-family: Faculty Glyphic;
+	
+}
+h2 {
+	padding: 20px;
+	text-align: center;
+	background: rgba(33, 33, 33, .5);
+}
+h4 {
+	margin-right: 950px;
+}
+h5 {
+	margin-top: 25px;
+	margin-right: 1140px;
+}
+button {
+	margin-top: 30px;
+}
+.container {
+	padding: 20px;
+	text-align: center;
+  	background: rgba(33, 33, 33, .5);
+  	border-radius: 15px;
+  	margin-top: 40px;
+}
+.nav {
+	list-style: none;
+}
+.form-label-email {
+	margin-right: 600px;
+}
+.form-label-name {
+	margin-right: 555px;
+}
+.form-label-birthday {
+	margin-right: 600px;
+}
+.form-label-number {
+	margin-right: 513px;
+}
+.form-check-label-programming {
+	margin-right: 2000px;
+}
+.form-check-label-haptics {
+	margin-right: 2000px;
+}
+.form-check-label-mc {
+	margin-right: 1046px;
+}
+.form-check-label-beginner {
+	margin-right: 1160px;
+}
+.form-check-label-intermediate {
+	margin-right: 1130px;
+}
+.form-check-label-advanced {
+	margin-right: 1150px;
+}
+.prp {
+	margin-top: 20px;
+}

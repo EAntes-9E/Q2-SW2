@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!--BS5 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- link to JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<!-- add style -->
+	<link rel="stylesheet" type="text/css" href="style.css">	
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+
+
+	<title>BS5 NavBar</title>
+</head>
+<body>
+
+	<div class="container mb-3">
+	<form>
+		<h2>Robotics Registration Form</h2>
+	     
+	     <div class="row g-3">
+            
+	     	<!-- email -->
+            <div class="col-md-6">
+                <label for="inputEmail" class="form-label-email">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            
+            <!-- name -->
+            <div class="col-md-6">
+                <label for="inputFullName" class="form-label-name">Full Name</label>
+                <input type="text" class="form-control" id="inputFullName" placeholder="Full Name">
+            </div>
+        </div>
+		   
+		   <!-- birthday -->
+		    <div class="row g-3 mt-3">
+            	<div class="col-md-6">
+                	<label for="inputBirthday" class="form-label-birthday">Birthday</label>
+                	<input type="date" class="form-control" id="inputBirthday">
+            </div>
+           
+           <!-- number -->
+            <div class="col-md-6">
+                <label for="inputPhoneNumber" class="form-label-number">Phone Number</label>
+                <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="Phone Number">
+            </div>
+        </div>
+	    
+	    <!-- checkbox -->
+	     <div class="mt-4">
+            <h4 class="preference">Preferred Robotics Topics</h4>
+           
+           <!-- programming -->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkProgramming">
+                <label class="form-check-label-programming" for="checkProgramming">Programming</label>
+            </div>
+
+           <!-- haptics -->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkHaptics">
+                <label class="form-check-label-haptics" for="checkHaptics">Haptics</label>
+            </div>
+            
+            <!-- mc -->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="checkMorphologicalComputation">
+                <label class="form-check-label-mc" for="checkMorphologicalComputation">Morphological Computation</label>
+            </div>
+        </div>
+		
+	  	<div class="mt-4">
+        <h4>Robotics Experience Level</h4>
+        	
+        	 <!-- Beginner -->
+        	<div class="form-check">
+          	<input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Beginner
+ 		 	<label class="form-check-label-beginner" for="radio1"></label>
+		</div>
+		
+		<!-- intermediate -->
+		<div class="form-check">
+  			<input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Intermediate
+  			<label class="form-check-label-intermediate" for="radio2"></label>
+		</div>
+		
+		<!-- advanced -->
+		<div class="form-check">
+  			<input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Advanced
+  			<label class="form-check-label-advanced" for="radio2"></label>
+		</div>
+
+		 
+		 <!-- option -->
+		 <h4 class="prp">Preffered Robotics Project</h4>
+		 <select class="form-select mt-3">
+		 	<option></option>
+   			<option>Robotic Arm</option>
+    		<option>Robot Car</option>
+     		<option>Romote Controlled Robot</option>
+  		</select>
+
+  		<!-- comments -->
+		<h5>Comments:</h5>
+		<textarea class="form-control" rows="5" id="comment" name="text" placeholder="Enter your comments"></textarea>
+    	<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+
+
+
+
+</body>
+</html>
